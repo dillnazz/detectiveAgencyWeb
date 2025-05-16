@@ -199,7 +199,7 @@ export default function ServicesPage() {
             </Link>
             <Link to="/">
               <p className={style.text}>Защита переговоров
-                от прослушки и жучков.
+                от прослушки и жучков
                 </p>
             </Link>
             {/* <Link to="/">
@@ -482,7 +482,7 @@ export default function ServicesPage() {
                   <p className={style.text}>Профессиональный поиск скрытых камер и жучков</p>
                 </Link>
                 <Link to="/">
-                  <p className={style.text}>Защита переговоров от прослушки и жучков.</p>
+                  <p className={style.text}>Защита переговоров от прослушки и жучков</p>
                 </Link>
               </div>
             )}
