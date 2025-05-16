@@ -263,6 +263,10 @@ export default function ServicesPage() {
           </section> */}
         </section>
         <section className={style.catalog_mobile}>
+
+
+
+
           <div className={style.blok}>
             <div className={style.row}>
               <div className={style.bloksmall}>
@@ -313,25 +317,27 @@ export default function ServicesPage() {
           <div className={style.blok}>
             <div className={style.row}>
               <div className={style.bloksmall}>
-                <Info
-                  alt="Info"
+                <Journalism
+                  alt="Journalism"
                   className={style.img}
                   style={{
-                    filter: isIconUp ? "brightness(0%) saturate(100%)" : "none",
+                    filter: isIconUp6
+                      ? "brightness(0%) saturate(100%)"
+                      : "none",
                     transitionDuration: "0.2s",
                   }}
                 />
-                <h2 className={style.h2}>Сбор информации для юридических лиц
-</h2>
+                <h2 className={style.h2}>Сбор информации для юридических лиц</h2>
               </div>
               <ArrowDown
-                onClick={handleItemClick}
+                onClick={handleItemClick6}
                 style={{
-                  transform: isIconUp ? "rotate(180deg)" : "rotate(0deg)",
+                  transform: isIconUp6 ? "rotate(180deg)" : "rotate(0deg)",
                   transition: "transform 0.3s ease",
-                }} />
+                }}
+              />
             </div>
-            {showItems && (
+            {showItems6 && (
               <div className={style.bloktext}>
                 <Link to="/">
                   <p className={style.text}>Сбор сведений по гражданским, и по уголовным делам</p>
@@ -357,8 +363,6 @@ export default function ServicesPage() {
               </div>
             )}
           </div>
-
-
 
 
 
@@ -527,37 +531,7 @@ export default function ServicesPage() {
             )}
           </div>
 
-          {/* <div className={style.blok}>
-            <div className={style.row}>
-              <div className={style.bloksmall}>
-                <Journalism
-                  alt="Journalism"
-                  className={style.img}
-                  style={{
-                    filter: isIconUp6
-                      ? "brightness(0%) saturate(100%)"
-                      : "none",
-                    transitionDuration: "0.2s",
-                  }}
-                />
-                <h2 className={style.h2}>Журналистика</h2>
-              </div>
-              <ArrowDown
-                onClick={handleItemClick6}
-                style={{
-                  transform: isIconUp6 ? "rotate(180deg)" : "rotate(0deg)",
-                  transition: "transform 0.3s ease",
-                }}
-              />
-            </div>
-            {showItems6 && (
-              <div className={style.bloktext}>
-                <Link to="/">
-                  <p className={style.text}>Заказать расследование</p>
-                </Link>
-              </div>
-            )}
-          </div> */}
+
         </section>
       </main>
     </>
