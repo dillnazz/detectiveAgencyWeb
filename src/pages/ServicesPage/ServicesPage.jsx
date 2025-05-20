@@ -100,7 +100,6 @@ export default function ServicesPage() {
               <Person alt="person" className={style.icon} />
               Для частных лиц
             </div>
-            {/* <Info alt="Info" className={style.img} /> */}
             <h2 className={style.h2}>Сбор информации</h2>
             <Link to="/">
               <p className={style.text}>Досье на человека</p>
@@ -278,7 +277,11 @@ export default function ServicesPage() {
                     transitionDuration: "0.2s",
                   }}
                 />
-                <h2 className={style.h2}>Сбор информации для частных лиц</h2>
+                <h2 onClick={handleItemClick}
+                  style={{
+                    transform: isIconUp ? "rotate(0deg)" : "rotate(0deg)",
+                    transition: "transform 0.3s ease",
+                  }} className={style.h2}>Сбор информации для частных лиц</h2>
               </div>
               <ArrowDown
                 onClick={handleItemClick}
@@ -327,7 +330,11 @@ export default function ServicesPage() {
                     transitionDuration: "0.2s",
                   }}
                 />
-                <h2 className={style.h2}>Сбор информации для юридических лиц</h2>
+                <h2 onClick={handleItemClick6}
+                  style={{
+                    transform: isIconUp6 ? "rotate(0deg)" : "rotate(0deg)",
+                    transition: "transform 0.3s ease",
+                  }} className={style.h2}>Сбор информации для юридических лиц</h2>
               </div>
               <ArrowDown
                 onClick={handleItemClick6}
@@ -379,7 +386,11 @@ export default function ServicesPage() {
                     transitionDuration: "0.2s",
                   }}
                 />
-                <h2 className={style.h2}>Розыск</h2>
+                <h2 onClick={handleItemClick2}
+                  style={{
+                    transform: isIconUp2 ? "rotate(0deg)" : "rotate(0deg)",
+                    transition: "transform 0.3s ease",
+                  }} className={style.h2}>Розыск</h2>
               </div>
               <ArrowDown
                 onClick={handleItemClick2}
@@ -422,7 +433,11 @@ export default function ServicesPage() {
                     transitionDuration: "0.2s",
                   }}
                 />
-                <h2 className={style.h2}>Семейные вопросы</h2>
+                <h2 onClick={handleItemClick3}
+                  style={{
+                    transform: isIconUp3 ? "rotate(0deg)" : "rotate(0deg)",
+                    transition: "transform 0.3s ease",
+                  }} className={style.h2}>Семейные вопросы</h2>
               </div>
               <ArrowDown
                 onClick={handleItemClick3}
@@ -457,7 +472,11 @@ export default function ServicesPage() {
                     transitionDuration: "0.2s",
                   }}
                 />
-                <h2 className={style.h2}>Защита и безопасность</h2>
+                <h2 onClick={handleItemClick4}
+                  style={{
+                    transform: isIconUp4 ? "rotate(0deg)" : "rotate(0deg)",
+                    transition: "transform 0.3s ease",
+                  }} className={style.h2}>Защита и безопасность</h2>
               </div>
               <ArrowDown
                 onClick={handleItemClick4}
@@ -501,7 +520,11 @@ export default function ServicesPage() {
                     transitionDuration: "0.2s",
                   }}
                 />
-                <h2 className={style.h2}>Расследования</h2>
+                <h2 onClick={handleItemClick5}
+                  style={{
+                    transform: isIconUp5 ? "rotate(0deg)" : "rotate(0deg)",
+                    transition: "transform 0.3s ease",
+                  }} className={style.h2}>Расследования</h2>
               </div>
               <ArrowDown
                 onClick={handleItemClick5}
