@@ -1,12 +1,12 @@
 .card {
   position: relative;
-  color: #403531; /* Темный цвет текста для контраста с белым фоном */
+  color: #403531;
   height: 427px;
   width: 318px;
   padding: 40px;
   border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 16px;
-  background-color: #fff; /* Белый фон для карточки всегда */
+  background-color: #fff;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -32,7 +32,7 @@
 
 .card:hover,
 .card:focus {
-  background-color: #fff; /* Это свойство теперь не нужно, так как фон уже белый */
+  background-color: #fff; 
   color: #403531;
   transform: translateY(-12px);
 

@@ -38,7 +38,7 @@ export default function Contacts() {
               <span>swedenkalmar@gmail.com</span>
             </a>
 
-            <a href="https://api.whatsapp.com/send?phone=79686868685" target="_blank" rel="noreferrer" className={styles.messengerLink}>
+            <a href="" target="_blank" rel="noreferrer" className={styles.messengerLink}>
               <Whatsapp className={styles.icon} />
               <span>+996 504 555 811</span>
             </a>

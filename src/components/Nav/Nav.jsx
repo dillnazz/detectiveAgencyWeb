@@ -1,8 +1,6 @@
 import React from "react";
 import { useState } from "react";
 import { Link } from "react-router-dom";
-// import { ReactComponent as Vectordown } from "../../assets/images/vectordown.svg";
-// import { ReactComponent as Vectordown2 } from "../../assets/images/bxs_chevron-down.svg";
 import { ReactComponent as Vectorright } from "../../assets/images/bxs_chevron-right.svg";
 import styled from "styled-components";
 import style from "./nav.module.scss";
@@ -112,20 +110,6 @@ const Nav = ({ open, closeMenu }) => {
               </div>
             </li>
           </Link>
-          {/* <Link to="/reviews">
-            <li
-              className={style.li}
-              onClick={() => {
-                Check();
-                closeMenu();
-              }}
-            >
-              Отзывы{" "}
-              <div className={style.right}>
-                <Vectorright />
-              </div>
-            </li>
-          </Link> */}
           <Link to="/contacts">
             <li
               className={style.li}

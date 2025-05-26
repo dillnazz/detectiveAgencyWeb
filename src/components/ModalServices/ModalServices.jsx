@@ -70,17 +70,9 @@ export default function ModalServices(props) {
                   to="/services_for_individuals/geolocation"
                 >
                 </Link>
-                {/* <Link to="/" onClick={() => Check()}>
-                  <p className={style.text}>Проверка запрета на выезд</p>
-                </Link> */}
+
                 {showMore2 && (
                   <div>
-                    {/* <Link to="/" onClick={() => Check()}>
-                      <p className={style.text}>Проверка кредитной истории</p>
-                    </Link> */}
-                    {/* <Link to="/" onClick={() => Check()}>
-                      <p className={style.text}>Проверка кредитной истории</p>
-                    </Link> */}
                   </div>
                 )}
                 <button onClick={handleShowMore2} className={style.button}>

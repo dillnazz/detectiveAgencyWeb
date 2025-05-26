@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import styled from "styled-components";
 import style from "./nav.module.scss";
 import Nav from "./Nav";
@@ -7,17 +7,15 @@ const StyledBurger = styled.div`
   height: 30px;
   padding: 4px 15px;
   align-items: center;
-  gap: 8px;
-  position: fixed;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 140%;
   border-radius: 48px;
   color: #fff;
+  margin-left: 10px;
   background-color: #110f0f;
   border: 1px solid rgba(255, 255, 255, 0.5);
-  z-index: 20;
   display: none;
 
   @media screen and (max-width: 1230px) and (min-width: 675px) {

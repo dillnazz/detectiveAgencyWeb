@@ -8,9 +8,6 @@ export default function Reviews() {
   return (
     <>
       <section className={`${style.container}`}>
-        {/* <div className={style.blok}>
-          <h3 className={style.h3}>Отзывы</h3>
-        </div> */}
         <Splide
           options={{
             perPage: 4,

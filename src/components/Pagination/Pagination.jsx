@@ -1,9 +1,5 @@
 import React, { useState } from "react";
 import Review from "../ReviewCard/ReviewCard";
-// import style from "./pagination.module.scss";
-// import ArrowLeft from "../../assets/images/white_arrow_left.svg";
-// import ArrowRight from "../../assets/images/white_arrow_right.svg";
-// import ArrowDown from "../../assets/images/biege_arrow_down.svg";
 import Post from "../Post/Post";
 
 const Pagination = (props) => {

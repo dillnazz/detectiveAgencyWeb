@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import style from './form.module.scss';
 
 const Form = () => {
-  // const title = "Акула";
 
   return (
     <div className={style.container}>

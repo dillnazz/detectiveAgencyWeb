@@ -1,6 +1,5 @@
 import style from "./director.module.scss";
 import { Link } from "react-router-dom";
-import WorkHistory from "../../assets/images/work-history.svg";
 import Vectorright from "../../assets/svg/Vectorright.jsx";
 import Popup from "../Popup/Popup.jsx";
 import SecondModal from "../SecondModal/SecondModal.jsx";

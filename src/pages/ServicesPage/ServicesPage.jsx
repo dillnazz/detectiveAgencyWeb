@@ -11,7 +11,7 @@ import { ReactComponent as Search } from "../../assets/images/services-search.sv
 import { ReactComponent as Protect } from "../../assets/images/services-protect.svg";
 import { ReactComponent as Journalism } from "../../assets/images/services-journalism.svg";
 import { ReactComponent as ArrowDown } from "../../assets/images/biege_arrow_down.svg";
-// import Services from "../../components/Services/Services.jsx";
+
 
 export default function ServicesPage() {
   const [showMore, setShowMore] = useState(false);
@@ -81,19 +81,8 @@ export default function ServicesPage() {
           <Breadcrumbs />
           <h1 className={style.h1}>Услуги</h1>
           <div className={style.services__tabs}>
-            {/* <div className={style.tabs__person}>
-              <Person alt="person" className={style.icon} />
-              Для частных лиц
-            </div> */}
-            {/* <Link to="/services_for_business">
-              <div className={style.tabs__business}>
-                <Business alt="small suitcase" className={style.icon} />
-                Для бизнеса
-              </div>
-            </Link> */}
           </div>
         </section>
-        {/* <Services/> */}
         <section className={style.catalog}>
           <section className={style.blokinfo}>
             <div className={style.tabs__person}>
@@ -124,12 +113,6 @@ export default function ServicesPage() {
             </Link>
             {showMore2 && (
               <div>
-                {/* <Link to="/">
-                  <p className={style.text}>Проверка кредитной истории</p>
-                </Link> */}
-                {/* <Link to="/">
-                  <p className={style.text}>Проверка кредитной истории</p>
-                </Link> */}
               </div>
             )}
             <button onClick={handleShowMore2} className={style.button}>
@@ -139,7 +122,6 @@ export default function ServicesPage() {
 
 
           <section className={style.blokfamily}>
-            {/* <Family alt="Family" className={style.img} /> */}
             <div className={style.tabs__person}>
               <Person alt="person" className={style.icon} />
               Для юридических лиц
@@ -201,11 +183,6 @@ export default function ServicesPage() {
                 от прослушки и жучков
                 </p>
             </Link>
-            {/* <Link to="/">
-              <p className={style.text}>
-                Обеспечение конфиденциальности
-                и личный досмотр участников</p>
-            </Link> */}
           </section>
 
 
@@ -251,15 +228,6 @@ export default function ServicesPage() {
             </button>
           </section>
 
-
-
-          {/* <section className={style.blokjournalism}>
-            <Journalism alt="Journalism" className={style.img} />
-            <h2 className={style.h2}>Журналистика</h2>
-            <Link to="/">
-              <p className={style.text}>Заказать расследование</p>
-            </Link>
-          </section> */}
         </section>
         <section className={style.catalog_mobile}>
 
